@@ -1,0 +1,107 @@
+[Root]
+Most Recent Package=English Explorer
+Most Recent Deploy=EE Deployment
+
+[Deploy|EE Deployment|Root]
+Package=English Explorer
+Handler=PDWizard.FolderDplySubWiz
+Folder=Y:\mywebs\corporate\eetp\setup
+
+
+[Package|English Explorer|Project1]
+Icon1=eexplorer.exe
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|English Explorer|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=\\Serverpc\yasu\mydata\vb\eem12b\eesetup
+
+[Package|English Explorer|Configure DAO ISAMs]
+Applicable=No
+
+[Package|English Explorer|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|English Explorer|Files Found]
+
+[Package|English Explorer|Files Released]
+
+[Package|English Explorer|Missing Dependency Information]
+C:\WINNT\system32\wbctrl.tlb=
+
+[Package|English Explorer|Out-of-Date Dependency Information]
+
+[Package|English Explorer|Files Added]
+
+[Package|English Explorer|Files Removed]
+
+[Package|English Explorer|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\wbctrl.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+\\Serverpc\yasu\mydata\vb\eem12b\eexplorer.exe=Yes
+
+[Package|English Explorer|Configure Registry Files]
+Applicable=No
+
+[Package|English Explorer|Configure Remote Servers]
+Applicable=No
+
+[Package|English Explorer|Install Locations]
+\\Serverpc\yasu\mydata\vb\eem11\eexplorer.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\wbctrl.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\Serverpc\yasu\mydata\vb\eem12\eexplorer.exe=$(AppPath)
+\\Serverpc\yasu\mydata\vb\eem12b\eexplorer.exe=$(AppPath)
+
+[Package|English Explorer|Configure Shared Files]
+Applicable=Yes
+\\Serverpc\yasu\mydata\vb\eem11\eexplorer.exe=No
+\\Serverpc\yasu\mydata\vb\eem12\eexplorer.exe=No
+\\Serverpc\yasu\mydata\vb\eem12b\eexplorer.exe=No
+
+[Package|English Explorer|Distribution]
+Type=single
+Size=
+Title=English Explorer
+
+[Package|English Explorer|IconGroups]
+Group0=English Explorer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|English Explorer|English Explorer]
+Icon1=eexplorer.exe
+Title1=English Explorer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|English Explorer|Package]
+PackageFolder=\\Serverpc\yasu\mydata\vb\eem12b\eesetup
+ProjectFolder=\\Serverpc\yasu\mydata\vb\eem12b
+ServerSideCab=
+File1=\\Serverpc\yasu\mydata\vb\eem12b\eesetup\setup.exe
+File2=\\Serverpc\yasu\mydata\vb\eem12b\eesetup\Setup.Lst
+File3=\\Serverpc\yasu\mydata\vb\eem12b\eesetup\eexplorer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
