@@ -1,0 +1,7 @@
+English Explorer alpha version history
+
+AUG 26 alpha 0.01
+	original release.
+SEP 19 alpha 0.02
+	fixed "Can't find project or library" bug. thanks Sheehan!
+
